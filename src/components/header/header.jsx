@@ -6,7 +6,7 @@ import {
 	UserOutlined,
 } from '@ant-design/icons'
 import Telegram from '../../assets/telegram.svg'
-import Logo from '../../assets/logo.svg'
+import Logotype from '../../assets/logotype.svg'
 import { Button } from 'antd'
 import menu from '../../assets/menu.svg'
 
@@ -38,7 +38,7 @@ const Header = () => {
 					<div className='flex items-center justify-between gap-10 py-2'>
 						<Link to={'/'}>
 							<div>
-								<img src={Logo} alt='Logo' />
+								<img src={Logotype} alt='Logotype' />
 							</div>
 						</Link>
 						<form className='flex items-center border rounded-lg	border-gray-300 '>
